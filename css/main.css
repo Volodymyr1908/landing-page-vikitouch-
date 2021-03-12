@@ -49,12 +49,32 @@
     }
     .images_container {
         width: 980px;
-        margin-left: 60px;
+        margin-left: 35px;
     }
     .images_box {
         height: 390px;
     }
+    .first_section_text {
+        margin-top: 20vh;
+
+    }
+    .first_title {
+        font-size: 54px;
+    }
+    .sub_title {
+        font-size: 30px;
+    }
+    .app_button {
+        width: 400px;
+        height: 55px;
+    }
+    .appointment_massage_container {
+        margin-left: 40px;
+    }
+
 }
+
+
 
 @media screen and (max-width: 874px) {
     body {
@@ -134,14 +154,14 @@
     }
     .burger {
         position: relative;
-        left: 40%;
+        left: 47%;
         display: block;
     }
     .phone {
-        margin-left: 14%;
+        margin-left: 19%;
     }
     .first_section {
-        background-position: right -220% bottom 50%;
+        background-position: 100% 50%;
     }
     .first_section_bc {
         padding-top: 300px;
@@ -154,16 +174,23 @@
         font-size: 38px;
         line-height: 105%;
     }
+    .sub_title {
+        font-size: 20px;
+    }
     .second_section_content {
         width: 690px;
-        margin-left: 160px;
+        /*margin-left: 160px;*/
         margin-top: 30px;
     }
     .study {
-        font-size: 42px;
+        font-size: 38px;
     }
     .images_container {
         margin-left: 50px;
+    }
+    .appointment_massage_container {
+        width: 740px;
+        margin-left: 18px;
     }
 }
 
@@ -190,6 +217,9 @@
     }
     .first_section_content {
         width: 30%;
+    }
+    .first_section_text {
+        margin-top: 0;
     }
     .first_title {
         font-size: 28px;
@@ -220,6 +250,21 @@
         width: 360px;
         height: 360px;
         margin: 10px auto;
+    }
+    .app_button {
+        width: 320px;
+        height: 45px;
+        line-height: 44px;
+    }
+    .appointment_massage_container {
+        width: 340px;
+        margin-left: 30px;
+    }
+    .study {
+        font-size: 38px;
+        font-weight: 800;
+        line-height: 100%;
+        text-align: center;
     }
 }
 

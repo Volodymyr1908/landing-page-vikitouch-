@@ -40,9 +40,9 @@
 .service_section_box {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 0 3px 1px #cecece;
-    width: 31%;
+    width: 23%;
     margin-bottom: 2%;
     /*box-sizing: border-box;*/
     border-radius: 3px;
@@ -55,7 +55,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #e98;
+    background: #ffffff;
 }
 .service_image {
     position: relative;
@@ -65,4 +65,36 @@
 .service_image img {
     max-width: 100%;
     display: block;
+}
+.txt {
+    position: relative;
+    line-height: 1.2;
+}
+.service_name {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    font-family: Montserrat, sans-serif;
+}
+.service_price {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.cost {
+    color: darkred;
+}
+
+@media screen and (max-width: 1024px) {
+    .service_section_container {
+        width: 980px;
+        margin-left: 21px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service_section_container {
+        width: 680px;
+        margin-left: 44px;
+    }
 }
