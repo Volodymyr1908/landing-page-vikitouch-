@@ -1,384 +1,385 @@
 
 
-@media screen and (max-width: 1330px) {
-    .header_text {
-        width: 76%;
-        margin-left: 2rem;
-    }
-    .header_text a {
-        letter-spacing: 0;
-    }
-    .first_section_content {
-        margin-left: 35px;
-    }
-    .first_section_bc {
-        padding-top: 320px;
-    }
-}
-@media screen and (max-width: 1170px) {
-    .header_text {
-        width: 65%;
-        margin-left: 10rem;
-    }
-    .header_text a {
-        letter-spacing: 0;
-    }
+/*@media screen and (max-width: 1330px) {*/
+/*    .header_text {*/
+/*        width: 76%;*/
+/*        margin-left: 2rem;*/
+/*    }*/
+/*    .header_text a {*/
+/*        letter-spacing: 0;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        margin-left: 35px;*/
+/*    }*/
+/*    .first_section_bc {*/
+/*        padding-top: 320px;*/
+/*    }*/
+/*}*/
 
-    .phone {
-        display: none;
-    }
+/*@media screen and (max-width: 1170px) {*/
+/*    .header_text {*/
+/*        width: 65%;*/
+/*        margin-left: 10rem;*/
+/*    }*/
+/*    .header_text a {*/
+/*        letter-spacing: 0;*/
+/*    }*/
 
-    .logo {
-        margin-left: 2rem;
-    }
-    .second_section_content {
-        width: 940px;
-    }
-    .images_container {
-        width: 1070px;
-    }
-    .images_box {
-        height: 422px;
-    }
+/*    .phone {*/
+/*        display: none;*/
+/*    }*/
 
-}
+/*    .logo {*/
+/*        margin-left: 2rem;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 940px;*/
+/*    }*/
+/*    .images_container {*/
+/*        width: 1070px;*/
+/*    }*/
+/*    .images_box {*/
+/*        height: 422px;*/
+/*    }*/
 
-@media screen and (max-width: 1085px) {
-    .second_section_content {
-        width: 768px;
-    }
-    .images_container {
-        width: 980px;
-        margin-left: 35px;
-    }
-    .images_box {
-        height: 390px;
-    }
-    .first_section_text {
-        margin-top: 20vh;
+/*}*/
 
-    }
-    .first_title {
-        font-size: 54px;
-    }
-    .sub_title {
-        font-size: 30px;
-    }
-    .app_button {
-        width: 400px;
-        height: 55px;
-    }
-    .appointment_massage_container {
-        margin-left: 40px;
-    }
+/*@media screen and (max-width: 1085px) {*/
+/*    .second_section_content {*/
+/*        width: 768px;*/
+/*    }*/
+/*    .images_container {*/
+/*        width: 980px;*/
+/*        margin-left: 35px;*/
+/*    }*/
+/*    .images_box {*/
+/*        height: 390px;*/
+/*    }*/
+/*    .first_section_text {*/
+/*        margin-top: 20vh;*/
 
-}
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 54px;*/
+/*    }*/
+/*    .sub_title {*/
+/*        font-size: 30px;*/
+/*    }*/
+/*    .app_button {*/
+/*        width: 400px;*/
+/*        height: 55px;*/
+/*    }*/
+/*    .appointment_massage_container {*/
+/*        margin-left: 40px;*/
+/*    }*/
 
-
-
-@media screen and (max-width: 874px) {
-    body {
-        overflow-x: hidden;
-    }
-    .header_text {
-        position: absolute;
-        right: 0;
-        height: 100vh;
-        top: 96%;
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 55%;
-        transform: translateX(100%);
-        transition: transform .3s ease-in;
-        z-index: 10;
-    }
-    .header_text li {
-        position: relative;
-        top: 1.5rem;
-        margin: 1rem 6rem;
-    }
-    .burger {
-        position: relative;
-        left: 57%;
-        display: block;
-    }
-    .phone {
-        display: block;
-        position: absolute;
-        /*right: 40%;*/
-        margin-top: .3rem;
-        margin-left: 27%;/
-        font-size: .9rem;
-    }
-    .first_section {
-        background-position: right -99% bottom 50%;
-    }
-    .first_section_bc {
-        padding-top: 278px;
-    }
-    .first_section_content {
-        width: 60%;
-        margin-left: 30px;
-    }
-    .first_title {
-        font-size: 42px;
-        margin-bottom: 20px;
-        line-height: 120%;
-        color: #fff;
-    }
-    .second_section_content {
-        width: 640px;
-        margin-left: 60px;
-    }
-    .images_container {
-        width: 680px;
-        margin-left: 105px;
-    }
-    .images_box {
-        height: 270px;
-        margin-left: 16px;
-
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header_text {
-        width: 65%;
-    }
-    .header_text li {
-        position: relative;
-        top: 1rem;
-        margin: 1rem 6rem;
-    }
-    .burger {
-        position: relative;
-        left: 47%;
-        display: block;
-    }
-    .phone {
-        margin-left: 19%;
-    }
-    .first_section {
-        background-position: 100% 50%;
-    }
-    .first_section_bc {
-        padding-top: 300px;
-    }
-    .first_section_content {
-        width: 50%;
-        margin-left: 40px;
-    }
-    .first_title {
-        font-size: 38px;
-        line-height: 105%;
-    }
-    .sub_title {
-        font-size: 20px;
-    }
-    .second_section_content {
-        width: 690px;
-        /*margin-left: 160px;*/
-        margin-top: 30px;
-    }
-    .study {
-        font-size: 38px;
-    }
-    .images_container {
-        margin-left: 50px;
-    }
-    .appointment_massage_container {
-        width: 740px;
-        margin-left: 18px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .header_text {
-        width: 85%;
-    }
-    .header_text li {
-        margin: 1rem 3rem;
-    }
-    .burger {
-        position: relative;
-        left: 5%;
-        display: block;
-    }
-    .phone {
-        display: none;
-    }
-    .first_section {
-        background-position: left 800% bottom 50%;
-    }
-    .first_section_bc {
-        padding-top: 300px;
-    }
-    .first_section_content {
-        width: 30%;
-    }
-    .first_section_text {
-        margin-top: 0;
-    }
-    .first_title {
-        font-size: 28px;
-    }
-    .second_section_content {
-        width: 380px;
-        margin-left: 24px;
-    }
-    .study {
-        font-size: 40px;
-    }
-    .second_section_img {
-        width: 100%;
-        height: 100%;
-        margin: 0 35px;
-        float: none;
-    }
-    .second_info {
-        font-size: 14px;
-        text-align: center;
-    }
-    .images_container {
-        width: 360px;
-        margin-left: 31px;
-        margin-bottom: 18px;
-    }
-    .images_box {
-        width: 360px;
-        height: 360px;
-        margin: 10px auto;
-    }
-    .app_button {
-        width: 320px;
-        height: 45px;
-        line-height: 44px;
-    }
-    .appointment_massage_container {
-        width: 340px;
-        margin-left: 30px;
-    }
-    .study {
-        font-size: 38px;
-        font-weight: 800;
-        line-height: 100%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .header_text {
-        width: 85%;
-    }
-    .header_text li {
-        font-size: .9rem;
-    }
-    .burger {
-        position: relative;
-        left: 0;
-        display: block;
-    }
-    .first_section_content {
-        width: 26%;
-        margin-left: 14px;
-    }
-    .first_title {
-        font-size: 28px;
-    }
-    .sub_title {
-        font-size: 18px;
-        line-height: 1.1;
-    }
-    .app_button {
-        margin-top: 45px;
-    }
-    .second_section_content {
-        width: 340px;
-        /*margin-left: 14px;*/
-    }
-    .second_section_img {
-        margin-left: 14px;
-    }
-    .images_container {
-        margin-left: 18px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .header_text {
-        width: 85%;
-    }
-    .header_text li {
-        font-size: .9rem;
-        margin: 1rem 2rem;
-    }
-    .burger {
-        left: -5%;
-    }
-    .first_section {
-        background-position: left 680% bottom 50%;
-    }
-    .first_section_bc {
-        padding-top: 275px;
-    }
-    .first_section_content {
-        width: 25%;
-        margin-left: 5px;
-
-    }
-    .first_title {
-        font-size: 24px;
-    }
-    .sub_title {
-        font-size: 16px;
-        margin-bottom: 5px;
-        line-height: 1.1;
-    }
-    .app_button {
-        width: 300px;
-        font-size: 18px;
-        margin-top: 30px;
-    }
-    .second_section_content {
-        width: 320px;
-        margin-left: 1px;
-    }
-    .study {
-        font-size: 34px;
-    }
-    .second_section_img {
-        width: 90%;
-        height: 90%;
-        margin-left: 9px;
-    }
-    .second_info {
-        font-size: 14px;
-        text-align: center;
-    }
-    .images_container {
-        width: 310px;
-        margin-left: 16px;
-        margin-bottom: 10px;
-    }
-    .images_box {
-        width: 310px;
-        height: 310px;
-    }
-}
+/*}*/
 
 
-.nav-active {
-    transform: translateX(0%);
-}
 
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(5rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
+/*@media screen and (max-width: 874px) {*/
+/*    body {*/
+/*        overflow-x: hidden;*/
+/*    }*/
+/*    .header_text {*/
+/*        position: absolute;*/
+/*        right: 0;*/
+/*        height: 100vh;*/
+/*        top: 96%;*/
+/*        display: flex;*/
+/*        justify-content: start;*/
+/*        flex-direction: column;*/
+/*        align-items: flex-start;*/
+/*        width: 55%;*/
+/*        transform: translateX(100%);*/
+/*        transition: transform .3s ease-in;*/
+/*        z-index: 10;*/
+/*    }*/
+/*    .header_text li {*/
+/*        position: relative;*/
+/*        top: 1.5rem;*/
+/*        margin: 1rem 6rem;*/
+/*    }*/
+/*    .burger {*/
+/*        position: relative;*/
+/*        left: 57%;*/
+/*        display: block;*/
+/*    }*/
+/*    .phone {*/
+/*        display: block;*/
+/*        position: absolute;*/
+/*        !*right: 40%;*!*/
+/*        margin-top: .3rem;*/
+/*        margin-left: 27%;/*/
+/*        font-size: .9rem;*/
+/*    }*/
+/*    .first_section {*/
+/*        background-position: right -99% bottom 50%;*/
+/*    }*/
+/*    .first_section_bc {*/
+/*        padding-top: 278px;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        width: 60%;*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 42px;*/
+/*        margin-bottom: 20px;*/
+/*        line-height: 120%;*/
+/*        color: #fff;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 640px;*/
+/*        margin-left: 60px;*/
+/*    }*/
+/*    .images_container {*/
+/*        width: 680px;*/
+/*        margin-left: 105px;*/
+/*    }*/
+/*    .images_box {*/
+/*        height: 270px;*/
+/*        margin-left: 16px;*/
+
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .header_text {*/
+/*        width: 65%;*/
+/*    }*/
+/*    .header_text li {*/
+/*        position: relative;*/
+/*        top: 1rem;*/
+/*        margin: 1rem 6rem;*/
+/*    }*/
+/*    .burger {*/
+/*        position: relative;*/
+/*        left: 47%;*/
+/*        display: block;*/
+/*    }*/
+/*    .phone {*/
+/*        margin-left: 19%;*/
+/*    }*/
+/*    .first_section {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    .first_section_bc {*/
+/*        padding-top: 300px;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        width: 50%;*/
+/*        margin-left: 40px;*/
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 38px;*/
+/*        line-height: 105%;*/
+/*    }*/
+/*    .sub_title {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 690px;*/
+/*        !*margin-left: 160px;*!*/
+/*        margin-top: 30px;*/
+/*    }*/
+/*    .study {*/
+/*        font-size: 38px;*/
+/*    }*/
+/*    .images_container {*/
+/*        margin-left: 50px;*/
+/*    }*/
+/*    .appointment_massage_container {*/
+/*        width: 740px;*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 414px) {*/
+/*    .header_text {*/
+/*        width: 85%;*/
+/*    }*/
+/*    .header_text li {*/
+/*        margin: 1rem 3rem;*/
+/*    }*/
+/*    .burger {*/
+/*        position: relative;*/
+/*        left: 5%;*/
+/*        display: block;*/
+/*    }*/
+/*    .phone {*/
+/*        display: none;*/
+/*    }*/
+/*    .first_section {*/
+/*        background-position: left 800% bottom 50%;*/
+/*    }*/
+/*    .first_section_bc {*/
+/*        padding-top: 300px;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        width: 30%;*/
+/*    }*/
+/*    .first_section_text {*/
+/*        margin-top: 0;*/
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 380px;*/
+/*        margin-left: 24px;*/
+/*    }*/
+/*    .study {*/
+/*        font-size: 40px;*/
+/*    }*/
+/*    .second_section_img {*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*        margin: 0 35px;*/
+/*        float: none;*/
+/*    }*/
+/*    .second_info {*/
+/*        font-size: 14px;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .images_container {*/
+/*        width: 360px;*/
+/*        margin-left: 31px;*/
+/*        margin-bottom: 18px;*/
+/*    }*/
+/*    .images_box {*/
+/*        width: 360px;*/
+/*        height: 360px;*/
+/*        margin: 10px auto;*/
+/*    }*/
+/*    .app_button {*/
+/*        width: 320px;*/
+/*        height: 45px;*/
+/*        line-height: 44px;*/
+/*    }*/
+/*    .appointment_massage_container {*/
+/*        width: 340px;*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .study {*/
+/*        font-size: 38px;*/
+/*        font-weight: 800;*/
+/*        line-height: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 380px) {*/
+/*    .header_text {*/
+/*        width: 85%;*/
+/*    }*/
+/*    .header_text li {*/
+/*        font-size: .9rem;*/
+/*    }*/
+/*    .burger {*/
+/*        position: relative;*/
+/*        left: 0;*/
+/*        display: block;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        width: 26%;*/
+/*        margin-left: 14px;*/
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*    .sub_title {*/
+/*        font-size: 18px;*/
+/*        line-height: 1.1;*/
+/*    }*/
+/*    .app_button {*/
+/*        margin-top: 45px;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 340px;*/
+/*        !*margin-left: 14px;*!*/
+/*    }*/
+/*    .second_section_img {*/
+/*        margin-left: 14px;*/
+/*    }*/
+/*    .images_container {*/
+/*        margin-left: 18px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 320px) {*/
+/*    .header_text {*/
+/*        width: 85%;*/
+/*    }*/
+/*    .header_text li {*/
+/*        font-size: .9rem;*/
+/*        margin: 1rem 2rem;*/
+/*    }*/
+/*    .burger {*/
+/*        left: -5%;*/
+/*    }*/
+/*    .first_section {*/
+/*        background-position: left 680% bottom 50%;*/
+/*    }*/
+/*    .first_section_bc {*/
+/*        padding-top: 275px;*/
+/*    }*/
+/*    .first_section_content {*/
+/*        width: 25%;*/
+/*        margin-left: 5px;*/
+
+/*    }*/
+/*    .first_title {*/
+/*        font-size: 24px;*/
+/*    }*/
+/*    .sub_title {*/
+/*        font-size: 16px;*/
+/*        margin-bottom: 5px;*/
+/*        line-height: 1.1;*/
+/*    }*/
+/*    .app_button {*/
+/*        width: 300px;*/
+/*        font-size: 18px;*/
+/*        margin-top: 30px;*/
+/*    }*/
+/*    .second_section_content {*/
+/*        width: 320px;*/
+/*        margin-left: 1px;*/
+/*    }*/
+/*    .study {*/
+/*        font-size: 34px;*/
+/*    }*/
+/*    .second_section_img {*/
+/*        width: 90%;*/
+/*        height: 90%;*/
+/*        margin-left: 9px;*/
+/*    }*/
+/*    .second_info {*/
+/*        font-size: 14px;*/
+/*        text-align: center;*/
+/*    }*/
+/*    .images_container {*/
+/*        width: 310px;*/
+/*        margin-left: 16px;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/*    .images_box {*/
+/*        width: 310px;*/
+/*        height: 310px;*/
+/*    }*/
+/*}*/
+
+
+/*.nav-active {*/
+/*    transform: translateX(0%);*/
+/*}*/
+
+/*@keyframes navLinkFade {*/
+/*    from {*/
+/*        opacity: 0;*/
+/*        transform: translateX(5rem);*/
+/*    }*/
+/*    to {*/
+/*        opacity: 1;*/
+/*        transform: translateX(0px);*/
+/*    }*/
+/*}*/

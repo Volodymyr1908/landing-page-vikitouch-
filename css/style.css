@@ -39,8 +39,8 @@ a:focus:after {
 /*HEADER STYLE ---------------------------------------------------------------------->*/
 
 .header_section{
-    width: 100vw;
-    min-width: 1170px;
+    width: 100%;
+    min-width: 1174px;
     /*background-color: #b91530;*/
     background-color: #6c6962;
     padding: 15px 0;
@@ -48,7 +48,7 @@ a:focus:after {
 }
 
 .header {
-    width: 1170px;
+    width: 1174px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -128,7 +128,7 @@ a:focus:after {
 /*BURGER MENU-------------------------------------------------*/
 
 .burger {
-    display: none;
+    /*display: none;*/
 }
 
 .burger:hover {
@@ -158,9 +158,9 @@ a:focus:after {
 /*FIRST SECTION------------------------------------------------------------------------------>*/
 
 .first_section {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    min-width: 1170px;
+    min-width: 1174px;
     line-height: 1.4;
     background-image: url("../assets/bc/001.jpg");
     background-color: #ffffff;
@@ -187,7 +187,7 @@ a:focus:after {
 }
 
 .first_section_text {
-    width: 1170px;
+    width: 1174px;
     max-height: 700px;
     min-height: 400px;
     margin: 0 auto;
@@ -256,15 +256,15 @@ a:focus:after {
 }
 
 .second_section {
-    width: 100vw;
-    min-width: 1170px;
+    width: 100%;
+    min-width: 1174px;
     position: relative;
     padding: 40px 0;
     line-height: 1.45;
 }
 
 .second_section_content {
-    width: 1170px;
+    width: 1174px;
     margin: 0 auto;
     position: relative;
     font-family: Poppins, sans-serif;
@@ -297,15 +297,15 @@ a:focus:after {
 /*IMAGES SECTION---------------------------------------------------------------------->*/
 
 .images_slider_section {
-    width: 100vw;
-    min-width: 1170px;
+    width: 100%;
+    min-width: 1174px;
     position: relative;
     padding: 40px 0;
     background-color: #6c6962;
 }
 
 .images_container {
-    width: 1170px;
+    width: 1174px;
     margin: 0 auto;
     position: relative;
     font-family: Poppins, sans-serif;
@@ -341,15 +341,15 @@ a:focus:after {
 
 .appointment_massage_section {
     display: block;
-    width: 100vw;
-    min-width: 1170px;
+    width: 100%;
+    min-width: 1174px;
     position: relative;
     padding: 40px 0;
     line-height: 1.4;
     margin-bottom: 30px;
 }
 
-.appointment_massage_container {
+.images_box {
     width: 940px;
     font-size: 13px;
     position: relative;

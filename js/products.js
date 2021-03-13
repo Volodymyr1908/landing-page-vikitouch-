@@ -13,7 +13,7 @@ class Products {
                     <div class="txt">
                         <span class="service_name">${name}</span>
                         <br>
-                        <span class="service_info">${info}</span>
+<!--                        <span class="service_info">${info}</span>-->
                         <div class="service_price">
                             <span>вартість - <span class="cost">${price} грн</span></span>
                         </div>

@@ -1,6 +1,6 @@
 .service_section{
-    width: 100vw;
-    min-width: 1170px;
+    width: 100%;
+    min-width: 1174px;
     position: relative;
     padding: 40px 0;
     line-height: 1.4;
@@ -47,6 +47,8 @@
     /*box-sizing: border-box;*/
     border-radius: 3px;
     position: relative;
+    background-size: cover;
+
 }
 
 .bc_color {
@@ -85,16 +87,57 @@
     color: darkred;
 }
 
-@media screen and (max-width: 1024px) {
-    .service_section_container {
-        width: 980px;
-        margin-left: 21px;
-    }
-}
+/*@media screen and (max-width: 1024px) {*/
+/*    .service_section_container {*/
+/*        width: 980px;*/
+/*        margin-left: 21px;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {*/
+/*    .service_section_container {*/
+/*        width: 680px;*/
+/*        margin-left: 44px;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 1180px){
+    .service_section {
+        min-width: 940px;
+    }
     .service_section_container {
-        width: 680px;
-        margin-left: 44px;
+        width: 940px;
     }
 }
+    @media (max-width: 960px) {
+        .service_section {
+            min-width: 768px;
+        }
+        .service_section_container {
+            width: 768px;
+        }
+    }
+        @media (max-width: 800px) {
+            .service_section {
+                min-width: 640px;
+            }
+            .service_section_container {
+                width: 640px;
+            }
+        }
+            @media (max-width: 640px) {
+                .service_section {
+                    min-width: 360px;
+                }
+                .service_section_container {
+                    width: 360px;
+                }
+            }
+                @media (max-width: 375px) {
+                    .service_section {
+                        min-width: 320px;
+                    }
+                    .service_section_container {
+                        width: 320px;
+                    }
+                }
