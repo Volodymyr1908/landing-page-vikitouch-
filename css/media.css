@@ -6,12 +6,54 @@
 @media (max-width: 1180px) {
     .header_section, .first_section, .second_section, .images_slider_section, .appointment_massage_section, .service_section {
         min-width: 940px;
-        background-size: cover;
+        /*background-size: cover;*/
     }
     .header, .first_section_text, .second_section_content, .images_container, .appointment_massage_container {
         width: 940px;
-        background-size: cover;
+        /*background-size: cover;*/
     }
+    /*.images_container {*/
+    /*    margin-left: 85px;*/
+    /*}*/
+    .first_section {
+        background-image: url("../assets/images/3_1.jpg");
+        /*overflow: hidden;*/
+    }
+
+    .first_section_content {
+        width: 80%;
+    }
+    .first_title {
+        font-size: 52px;
+    }
+    .sub_title {
+        font-size: 25px;
+    }
+    .app_button {
+        width: 450px;
+    }
+
+    .phone {
+        display: none;
+    }
+    /*.images_box img {*/
+    /*    height: 485px;*/
+    /*}*/
+    .appointment_massage_container {
+        margin: 0 auto;
+    }
+    /*.images {*/
+    /*    margin-left: -90px;*/
+    /*}*/
+    .study {
+        font-size: 50px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .logo_img {
+        width: 100px;
+    }
+
 }
 
 @media (max-width: 960px) {
@@ -22,6 +64,18 @@
     .header, .first_section_text, .second_section_content, .images_container, .appointment_massage_container {
         width: 768px;
     }
+    .header-menu {
+        font-size: 14px;
+    }
+
+    .header_text {
+        margin-right: -10px;
+    }
+
+    .images_box {
+        height: 245px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -32,50 +86,90 @@
     .header, .first_section_text, .second_section_content, .images_container, .appointment_massage_container {
         width: 640px;
     }
+
+    .first_section_content {
+        width: 90%;
+    }
+
+    .first_title {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+    .sub_title {
+        font-size: 18px;
+    }
+
         .header_text {
             position: absolute;
-            height: 100vh;
-            top: 96%;
-            display: none;
-            justify-content: start;
+            height: 0;
+            top: 99%;
+            display: flex;
+            justify-content: space-evenly;
             flex-direction: column;
             align-items: flex-start;
-            width: 55%;
-            /*transform: translateX(100%);*/
-            transition: transform .3s ease-in;
+            width: 65%;
+            transition: height .5s ease-in;
             z-index: 10;
+            right: -15px;
         }
         .header_text li {
             position: relative;
-            top: 1.5rem;
             margin: 0 auto;
         }
         .dropdown-item {
-            margin-left: 0;
-            padding-right: 0;
+            display: none;
+            /*visibility: hidden;*/
+            font-size: 25px;
+            opacity: 0;
+            transition: opacity 0.2s ease-in;
+            font-weight: 400;
         }
-        /*.burger {*/
-        /*    position: relative;*/
-        /*    left: 57%;*/
-        /*    display: block;*/
-        /*}*/
+        .burger {
+            position: relative;
+            display: block;
+            margin-left: 180px;
+            /*bottom: 13px;*/
+            margin-top: -22px;
+        }
+        .logo_img {
+            width: 125px;
+            bottom: 21px;
+        }
+        .first_section_bc {
+            padding-top: 19vh;
+        }
+    .app_button {
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        /*background-color: #b91530;*/
+        background-color: #6c6962;
+        line-height: 50px;
+        font-size: 18px;
+        margin-top: 5vh;
+    }
+    .images_container {
+        margin-left: 45px;
+    }
+    .second_section_img {
+        float: left;
+        margin-right: 10px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
 }
 
-/*.nav-active {*/
-/*    display: flex;*/
-/*    !*transform: translateX(0%);*!*/
-/*}*/
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(5rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
+.dropdown-item-active {
+    opacity: 1;
 }
+
+.nav-active {
+    display: flex;
+    height: 27vh;
+}
+
 
 
 @media (max-width: 640px) {
@@ -86,6 +180,17 @@
     .header, .first_section_text, .second_section_content, .images_container, .appointment_massage_container {
         width: 360px;
     }
+
+    .burger {
+        position: relative;
+        /*margin-left: 270px;*/
+        bottom: 90px;
+    }
+
+    .logo {
+        /*margin-right: 310px;*/
+    }
+
 }
 
 @media (max-width: 375px) {
